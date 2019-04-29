@@ -2,6 +2,7 @@
     "executionRoleArn": "arn:aws:iam::924474025577:role/ecsTaskExecutionRole", 
     "containerDefinitions": [ 
         { 
+            "name": "websiteftw", 
             "image": "<IMAGE1_NAME>", 
             "essential": true, 
             "portMappings": [ 
